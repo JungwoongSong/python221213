@@ -53,3 +53,16 @@ def connectURI(server, port):
 #호출
 print( connectURI("credu.com","80") )
 print( connectURI(port="8080", server="credu.com") )
+
+#가변적인 경우(가변인자 *)
+def union(*ar):
+    result = []
+    for item in ar:
+        for x in item:
+            if x not in result:
+                result.append(x)
+    return result
+
+#호출
+print( union("HSM","EGG") )
+print( union("HSM","EGG","SPAM") )
