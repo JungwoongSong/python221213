@@ -1,4 +1,4 @@
-# DemoList.py
+# DemoList.py 
 strA = "파이썬은 강력해"
 print( strA )
 print( len(strA) )
@@ -14,12 +14,12 @@ colors.append("blue")
 colors.insert(1, "white")
 print( colors )
 #카운트
-print( colors.count("blue"))
+print( colors.count("blue") )
 #방번호
-print( colors.index("blue"))
+print( colors.index("green") )
 colors.remove("green")
 print( colors )
-colors.extend( ["red","yellow","black"])
+colors.extend( ["red","yellow","black"] )
 print( colors )
 
 
@@ -32,3 +32,4 @@ print( type(a) )
 print( a.union(b) )
 print( a.intersection(b) )
 print( a.difference(b) )
+
